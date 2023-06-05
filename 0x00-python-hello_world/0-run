@@ -3,7 +3,7 @@
 # Writing a Shell script that runs a Python script.
 # when the Python file name will be saved in the environment variable $PYFILE
 
-# To solce this we invoke the python interpreter using it command python
+# To solce this we invoke the python interpreter using it command python3
 
-python $PYFILE
+python3 $PYFILE
 
