@@ -5,5 +5,5 @@
 
 # To solce this we invoke the python interpreter using it command python3
 
-python3 $PYFILE
+python3 ./$PYFILE
 
