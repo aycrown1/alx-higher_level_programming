@@ -72,3 +72,40 @@ Open your preferred Python IDE (e.g., PyCharm, Visual Studio Code, IDLE).
 Open the script file in the IDE.
 Look for the run or execute button/icon, typically represented by a play button or something similar. Click it to run the script.
 The script will be executed, and the output (if any) will be displayed in the terminal or the output window of your IDE.
+
+
+#### The Zen of Python, by TimPeters
+
+```py
+import this
+```
+
+This Python script that prints "The Zen of Python" by Tim Peters, followed by the Zen quotes.
+The this module in Python contains the famous Zen of Python poem, which highlights guiding principles and philosophies of the Python programming language. The script itself is minimal and requires only a single line of code.
+
+Here is "The Zen of Python" by Tim Peters:
+
+```plaintext
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+```
+
