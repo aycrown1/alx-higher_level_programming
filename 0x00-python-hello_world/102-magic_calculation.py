@@ -12,5 +12,4 @@ def magic_calculation(a, b):
     Returns:
         int or float: The result of the magic calculation.
     """
-    return 98 + (a ** b)
-    
+    return 98 + (a ** b) 
