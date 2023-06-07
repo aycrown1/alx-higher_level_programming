@@ -3,7 +3,7 @@ def uppercase(str):
     """
     output a string in uppercase
     Args:
-        str (str): The string to be printed in uppercase.
+        str (str): The string to be outputed in uppercase.
 
     Returns:
         None
