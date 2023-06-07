@@ -1,4 +1,4 @@
-## 0x01-python-if_else_loops_functions
+## 0x01. Python - if/else, loops, functions
 
 #### IF statement
 In Python, the if statement allows you to conditionally execute code based on a certain condition. Here's an example:
