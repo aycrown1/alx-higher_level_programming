@@ -15,3 +15,4 @@ def print_last_digit(number):
     else:
         last_digit = number % 10
         print(last_digit, end='')
+    return abs(last_digit)
