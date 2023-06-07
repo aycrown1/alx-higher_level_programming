@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def uppercase(str):
     """
-    Prints a string in uppercase
+    output a string in uppercase
     Args:
         str (str): The string to be printed in uppercase.
 
