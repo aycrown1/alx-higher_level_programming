@@ -3,11 +3,13 @@ def uppercase(str):
     """
     Prints a string in uppercase
     Args:
-        s (str): The string to be printed in uppercase.
+        str (str): The string to be printed in uppercase.
 
     Returns:
         None
     """
     for c in str:
-        print("{}".format(chr(ord(c) - 32)), end='')
+        if ord(c) >= 97 and ord(c) <= 122:
+        	c = chr(ord(c) - 32)
+        print("{}".format(c), end="")
     print()
