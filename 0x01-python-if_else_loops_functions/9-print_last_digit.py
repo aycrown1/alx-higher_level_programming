@@ -9,6 +9,13 @@ def print_last_digit(number):
     Returns:
         int: The value of the last digit.
     """
-    last_digit = abs(number) % 10
-    print(last_digit)
+    if number > 0:
+        last_digit = number % 10
+        print(last_digit, end='')
+    elif number < 0:
+        last_digit = number % -(10)
+        print(-(last_digit), end='')
+    else:
+        print(0)
+
     return last_digit
