@@ -4,8 +4,8 @@ from calculator_1 import add, sub, mul, div
 
 if __name__ == "__main__":
     """
-    This script imports functions from calculator_1.py and performs basic operations
-    based on the command-line arguments.
+    This script imports functions from calculator_1.py and
+    performs basic operations based on the command-line arguments.
     """
 
     operators = {
