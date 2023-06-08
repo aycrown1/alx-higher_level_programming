@@ -6,7 +6,8 @@ and prints the result of the addition a + b.
 a = 1
 b = 2
 
-The result is printed in the format: '<a value> + <b value> = <add(a, b) value>'
+The result is printed in the format:
+       '<a value> + <b value> = <add(a, b) value>'
 """
 
 if __name__ == "__main__":
