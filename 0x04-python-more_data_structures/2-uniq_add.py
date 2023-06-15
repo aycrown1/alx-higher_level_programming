@@ -8,7 +8,7 @@ def uniq_add(my_list=[]):
     Returns:
         int: The sum of all unique integers in the list.
     """
-    unique_set = set()
-    for num in my_list:
-        unique_set.add(num)
-    return sum(unique_set)
+    integer = 0
+    for element in set(my_list):
+    	integer += element
+    return integer
