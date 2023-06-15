@@ -8,7 +8,8 @@ def square_matrix_simple(matrix=[]):
 
     Returns:
         list[list[int]]: A new matrix with the same size as the input matrix.
-        Each value in the new matrix is the square of the corresponding value in the input matrix.
+        Each value in the new matrix is
+        the square of the corresponding value in the input matrix.
         The input matrix remains unmodified.
     """
     # Create a new matrix with the same size as the input matrix
