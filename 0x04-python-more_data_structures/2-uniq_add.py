@@ -11,5 +11,5 @@ def uniq_add(my_list=[]):
     """
     integer = 0
     for element in set(my_list):
-    	integer += element
+        integer += element
     return integer
