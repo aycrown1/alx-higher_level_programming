@@ -7,7 +7,8 @@ def best_score(a_dictionary):
         a_dictionary (dict): The input dictionary.
 
     Returns:
-        str or None: The key with the biggest integer value, or None if no score is found.
+        str or None: The key with the biggest
+        integer value, or None if no score is found.
     """
     max_score = float('-inf')
     max_key = None
