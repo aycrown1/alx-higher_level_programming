@@ -27,7 +27,7 @@
 
 *The Difference between Attribute and Property in Python:* Attributes are straightforward data members of a class, while properties have getter, setter, and deleter methods associated with them, allowing you to control access and modification of the attribute
 
-* The Pythonic Way to Write Getters and Setters:* Use the `@property`, `@attribute_name.setter`, and `@attribute_name.deleter` decorators to define getters, setters, and deleters for properties. This helps maintain a clean and intuitive interface for attribute access.
+*The Pythonic Way to Write Getters and Setters:* Use the `@property`, `@attribute_name.setter`, and `@attribute_name.deleter` decorators to define getters, setters, and deleters for properties. This helps maintain a clean and intuitive interface for attribute access.
 
 *Dynamically Create Arbitrary New Attributes:* Attribute can dynamically create for an instance by simply assigning a value to a new attribute name like `instance.new_attribute = value`.
 
