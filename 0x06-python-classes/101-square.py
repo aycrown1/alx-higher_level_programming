@@ -77,54 +77,6 @@ class Square:
         Attribute:
             value (int): the new positon of the square
         Raise:
-            TypeError: If value is not an integer.
-            ValueError: If size is less than 0.
-        """
-        if not isinstance(value, int):
-            raise TypeError("size must be an integer")
-        if value < 0:
-            raise ValueError("size must be >= 0")
-
-        self.__size = value
-
-    @property
-    def position(self):
-        """
-        retrive the current position of the square
-        """
-        return self.__position
-
-    @position.setter
-    def position(self, value):
-        """
-        Set the current positon
-        Attribute:
-            value (int): the new positon of the square
-        Raise:
-            TypeError: If value is not an integer.
-            ValueError: If size is less than 0.
-        """
-        if not isinstance(value, int):
-            raise TypeError("size must be an integer")
-        if value < 0:
-            raise ValueError("size must be >= 0")
-
-        self.__size = value
-
-    @property
-    def position(self):
-        """
-        retrive the current position of the square
-        """
-        return self.__position
-
-    @position.setter
-    def position(self, value):
-        """
-        Set the current positon
-        Attribute:
-            value (int): the new positon of the square
-        Raise:
            TypeError: If value is not a tuple and element not an int
         """
         if (not isinstance(value, tuple) or len(value) != 2):
