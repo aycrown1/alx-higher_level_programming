@@ -33,7 +33,16 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses objects an
 
 **Bind Attributes to Objects and Classes:** Attributes can be bind to an object instance by using the dot notation (`object.attribute_name`) or to a class by defining them within the class but outside of any method.
 
-**`__dict__` of a Class/Instance:** The `__dict__` attribute of a class or instance is a dictionary that contains the attributes and their values for that class or instance.
+**`__dict__:`** __dict__ is a special attribute of a Python object that holds its namespace or a dictionary containing the object's attributes.It allows you to access and manipulate an object's attributes as key-value pairs.You can add, modify, or delete attributes of an object using its __dict__.
+The direct use of __dict__ for attribute access and modification is not the typical way to work with object attributes in Python. It's usually better to use the object's attribute access syntax (e.g., obj.x) or the built-in getattr() and setattr() functions.
+
+**`__str__:`** The __str__ method is used to define the "informal" or user-friendly string representation of an object.It is called by the built-in str() function and by the print() function when you try to print an object.It should return a string that represents the object in a way that makes sense to a human.This method is typically used for descriptive and user-facing output.
+
+**`__repr__:`** The __repr__ method is used to define the "formal" or unambiguous string representation of an object.It is called by the built-in repr() function and by the interactive Python shell when you enter an object's name without printing it.It should return a string that, when passed to the Python interpreter, would create an object with the same state as the original.This method is used for debugging and development, and it should ideally provide a complete and valid representation of the object.
+
+
+**`__init__:`** __init__ is a special method in Python used for initializing objects of a class.It's called automatically when you create a new instance of a class, allowing you to set initial values for the object's attributes.__init__ is part of the object's constructor, and it's used to perform any setup or configuration that should happen when an object is created.
+
 
  **How Python Finds Attributes:** Python looks for attributes first in the instance's namespace, then in the class's namespace, and finally in the namespaces of the base classes (in case of inheritance).
  
