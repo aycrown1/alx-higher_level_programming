@@ -8,4 +8,3 @@ if (isNaN(x)) {
 for (; x > 0; x--) {
   console.log('X'.repeat(i));
 }
-
