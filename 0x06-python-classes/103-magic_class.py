@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import math
 
 class MagicClass:
@@ -28,5 +29,5 @@ class MagicClass:
         """
         Returns The circumference of the MagicClass.
         """
-        return 2 * math.pi * self.__radius    return (2 * math.pi * self.__radius)
+        return 2 * math.pi * self.__radiush.pi * self.__radius)
 us)
