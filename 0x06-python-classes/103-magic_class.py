@@ -12,7 +12,7 @@ class MagicClass:
         Arg:
             radius (float or int): The radius of the new MagicClass.
         """
-        self.__radius = 0  # Initialize __radius to 0
+        self.__radius = 0
 
         if type(radius) is not int and type(radius) is not float:
             raise TypeError("radius must be a number")
@@ -29,5 +29,5 @@ class MagicClass:
         """
         Returns The circumference of the MagicClass.
         """
-        return 2 * math.pi * self.__radiush.pi * self.__radius)
-us)
+        return 2 * math.pi * self.__radius
+
