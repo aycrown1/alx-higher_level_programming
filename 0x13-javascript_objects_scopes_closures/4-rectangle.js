@@ -5,18 +5,18 @@ module.exports = class Rectangle {
       this.width = w;
       this.height = h;
       this.print = function () {
-          for (let i = 0; i < h; i++) {
-              console.log('X'.repeat(w));
-          }
+        for (let i = 0; i < h; i++) {
+          console.log('X'.repeat(w));
+        }
       };
       this.rotate = function () {
-          let tmp = h;
-          h = w;
-          w = tmp;
+        const tmp = h;
+        h = w;
+        w = tmp;
       };
       this.double = function () {
-          h *= 2;
-          w *= 2;
+        h *= 2;
+        w *= 2;
       };
     }
   }
