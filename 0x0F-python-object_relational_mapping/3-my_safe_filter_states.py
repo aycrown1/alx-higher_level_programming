@@ -15,7 +15,8 @@ if __name__ == '__main__':
         passwd = sys.argv[2]
         dbase = sys.argv[3]
         searched = sys.argv[4]
-        db = MySQLdb.connect(host='localhost', user=user, passwd=passwd, db=dbase, port=3306)
+        db = MySQLdb.connect(host='localhost', user=user, passwd=passwd,
+                             db=dbase, port=3306)
         cursor = db.cursor()
         cursor.execute("SELECT * FROM states ORDER BY states.id ASC")
         table = cursor.fetchall()
