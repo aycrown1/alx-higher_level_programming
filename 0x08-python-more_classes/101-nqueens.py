@@ -20,14 +20,16 @@ One solution per line
        [[0, 2], [1, 5], [2, 1], [3, 4], [4, 0], [5, 3]]
        [[0, 3], [1, 0], [2, 4], [3, 1], [4, 5], [5, 2]]
        [[0, 4], [1, 2], [2, 0], [3, 5], [4, 3], [5, 1]]
-       julien@ubuntu:~/0x08. N Queens$ 
+       julien@ubuntu:~/0x08. N Queens$
 
 You don’t have to print the solutions in a specific order
 """
 import sys
 
+
 def is_safe(board, row, col):
-    """Check if a queen can be placed at board[row][col] without attacking other queens"""
+    """Check if a queen can be placed at board[row][col]
+            without attacking other queens"""
     N = len(board)
 
     # Check if there is a queen in the same column
@@ -47,6 +49,7 @@ def is_safe(board, row, col):
 
     return True
 
+
 def print_solution(board):
     """Print a solution in the specified format"""
     solution = []
@@ -55,6 +58,7 @@ def print_solution(board):
             if board[row][col] == 1:
                 solution.append([row, col])
     print(solution)
+
 
 def solve_nqueens(N):
     """Solve the N-Queens problem and print solutions"""
@@ -81,6 +85,7 @@ def solve_nqueens(N):
     for solution in solutions:
         print_solution(solution)
         print()
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
