@@ -12,4 +12,4 @@ if __name__ == "__main__":
             print("\t- content: {}".format(body))
             print("\t- utf8 content: {}".format(body.decode("utf-8")))
     except urllib.error.URLError as e:
-        print(f"Error fetching the URL: {e}")
+        print("Error fetching the URL: {}".format(e))

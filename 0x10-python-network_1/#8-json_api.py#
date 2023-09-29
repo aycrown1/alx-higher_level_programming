@@ -25,4 +25,4 @@ if __name__ == "__main__":
         except ValueError:
             print("Not a valid JSON")
     except requests.exceptions.RequestException as e:
-        print("Request error: {}".format(e))
+    print("Request error: {}".format(e))

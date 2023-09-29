@@ -11,4 +11,4 @@ if __name__ == "__main__":
         else:
             print("{}".format(response.content.decode('utf-8')))
     except requests.exceptions.RequestException as e:
-        print(f"Request error: {e}")
+        print("Request error: {}".format(e))
