@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# fetches the X-Request-Id variable in the response header
+"""fetches the X-Request-Id variable in the response header"""
 from requests import get
 import sys
 

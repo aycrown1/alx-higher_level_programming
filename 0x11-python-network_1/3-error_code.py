@@ -12,10 +12,10 @@ url = sys.argv[1]
 
 if __name__ == "__main__":
     try:
-        with urllib.request.urlopen(url) as response:
+        with request.urlopen(url) as response:
             content = response.read()
             print("{}".format(content.decode('utf-8')))
-    except urllib.error.HTTPError as e:
+    except error.HTTPError as e:
         print("Error code: {}".format(e.code))
-    except urllib.error.URLError as e:
+    except error.URLError as e:
         print("Error fetching the URL: {}".format(e))
