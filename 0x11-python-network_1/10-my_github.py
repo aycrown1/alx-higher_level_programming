@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# takes in github credentials and displays the id
+""" takes in github credentials and displays the id
+"""
 from requests import get
 from requests.auth import HTTPBasicAuth
 import sys
