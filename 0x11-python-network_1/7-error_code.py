@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# gets the status code to the passed URL
+""" gets the status code to the passed URL"""
 from requests import get
 import sys
 
