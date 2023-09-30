@@ -6,5 +6,5 @@ import sys
 if __name__ == "__main__":
     url = sys.argv[1]
     email = {'email': sys.argv[2]}
-    response = post(url, data=email).content.decode('utf-8')
+    response = post(url, data=email)
     print(response.text)
